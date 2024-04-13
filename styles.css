@@ -1,0 +1,691 @@
+@font-face {
+  font-family: "chinese-rocks";
+  src: url(./assets/chinese-rocks/chinese\ rocks\ rg.ttf);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "chinese-rocks", "Poppins";
+  color: red;
+  background-color: rgb(16, 16, 16);
+  scroll-behavior: smooth !important;
+}
+
+img {
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+header {
+  background-color: rgb(16, 16, 16);
+  margin-top: -70px;
+}
+
+header nav {
+  margin: 0;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 23px;
+  border-bottom: solid;
+  padding: 20px;
+  padding-right: 70px;
+  background-color: rgb(16, 16, 16);
+  z-index: 9;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+header nav a:hover {
+  color: red;
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+header h1 {
+  padding-top: 200px;
+  font-size: 100px;
+  text-align: center;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: -100px;
+}
+
+header h2 {
+  padding-top: -400px;
+  font-size: 100px;
+  text-align: center;
+  transition: all 0.25s ease-in-out;
+}
+
+header h4 {
+  margin-top: -20px;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: -100px;
+}
+
+.top {
+  position: relative;
+  border: none;
+  box-shadow: none;
+  z-index: 1;
+  height: 15vh;
+  width: 100%;
+  top: 120px;
+}
+
+.bottom {
+  position: relative;
+  border: none;
+  box-shadow: none;
+  z-index: 1;
+  height: 15vh;
+  width: 100%;
+  bottom: 120px;
+}
+
+#background-video {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  margin: auto;
+  background-position: center;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+}
+p {
+  font-family: "Poppins", "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: white;
+  font-size: 25px;
+  padding: 20px 130px;
+  line-height: 60px;
+}
+
+main {
+  padding-top: 150px;
+}
+
+#introduction {
+  padding-top: 30px;
+}
+
+#introduction img {
+  float: left;
+  max-width: 1200px;
+  margin-left: 130px;
+  margin-right: 20px;
+  justify-content: center;
+  border: 2px solid red;
+}
+#showcase {
+  border: 5px solid rgb(39, 37, 34);
+  border-radius: 10px;
+  width: 50%;
+  height: 50vh;
+  object-fit: cover;
+  float: left;
+  margin: 30px;
+  background-position: center;
+  border-radius: 3px;
+  box-shadow: rgba(75, 71, 64, 0.4) 5px 5px, rgba(75, 71, 64, 0.3) 10px 10px,
+    rgba(75, 71, 64, 0.2) 15px 15px, rgba(75, 71, 64, 0.1) 20px 20px,
+    rgba(75, 71, 64, 0.05) 25px 25px;
+}
+
+#gameplay #showcase-right {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 50%;
+  height: 50vh;
+  object-fit: cover;
+  float: right;
+  margin: 30px;
+
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px,
+    rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px,
+    rgba(0, 0, 0, 0.05) 25px 25px;
+}
+
+section {
+  padding: 200px 0;
+}
+
+#sandbox {
+  border-top: solid 2px;
+  background-image: url(./assets/Red-Dead-Redemption-2-Full-World-Map\ blurred\ 2.png);
+  background-size: cover;
+  margin-top: 100px;
+  background-position: center center;
+}
+
+#sandbox p {
+  color: rgb(16, 16, 16);
+  text-shadow: rgb(149, 142, 123) 1px 2px;
+  font-weight: 800;
+}
+
+#sandbox h2 {
+  font-size: 70px;
+  color: rgb(43, 40, 38);
+  text-shadow: rgb(123, 134, 150) 2px 2px;
+}
+
+#sandbox h4 {
+  color: white;
+  text-shadow: black 2px 2px 4px;
+  text-align: center;
+  font-size: 30px;
+}
+#sandbox a {
+  margin-left: 5px;
+  color: rgb(75, 71, 64);
+  text-shadow: none;
+}
+
+#gameplay {
+  background-color: red;
+  background-image: url(./assets/SXmPJU5.png);
+  background-size: cover;
+}
+
+#gameplay p {
+  text-shadow: black 2px 3px;
+}
+
+#gameplay h2 {
+  color: rgb(255, 255, 255);
+  text-shadow: black 2px 2px;
+}
+
+#gameplay .left {
+  float: left;
+  margin: 20px;
+  border: solid 3px black;
+  max-width: 700px;
+}
+
+#gameplay .link {
+  margin: 150px 0;
+  text-align: center;
+}
+
+#gameplay .link a {
+  color: bisque;
+}
+
+.right {
+  float: right;
+  margin: 20px;
+  border: solid 3px black;
+  max-width: 700px;
+}
+
+#interactivity {
+  padding-bottom: 200px;
+}
+
+#interactivity p,
+#interactivity h2 {
+  text-shadow: black 2px 3px;
+}
+
+#interactivity #showcase {
+  border: 3px solid rgb(255, 0, 0);
+  border-radius: 10px;
+  width: 60%;
+  height: 50vh;
+  object-fit: cover;
+  margin: 30px;
+  background-position: center;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px,
+    rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px,
+    rgba(0, 0, 0, 0.05) 25px 25px;
+}
+#interactivity .right {
+  border: solid 3px red;
+}
+
+.center {
+  margin-top: 0;
+  width: 100%;
+  height: 45vh;
+  background-image: url(./assets/train.jpg);
+  margin-top: 200px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  background-attachment: fixed;
+  margin-bottom: -450px;
+}
+
+.container {
+  display: flex;
+}
+
+#honor {
+  padding-top: 200px;
+  background-image: linear-gradient(
+    rgb(16, 16, 16),
+    rgb(29, 36, 39),
+    rgb(67, 87, 98),
+    rgb(228, 153, 40),
+    rgb(235, 158, 64),
+    rgb(253, 252, 234)
+  );
+}
+
+#honor h2 {
+  color: white;
+  text-shadow: black 2px 2px;
+}
+
+#honor p {
+  padding: 30px;
+  text-shadow: black 3px 3px;
+}
+
+#honor .column {
+  width: 50%;
+}
+
+.card {
+  background-image: url(./assets/rdr2_screenshot-014_wide-a661a4262e2f6f1c213de8d8d7ed7b4549207121-s1400-c100.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px;
+  margin: 6px;
+  border: 4px solid black;
+  margin: 6px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.high {
+  background-image: url(./assets/high\ honor0.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 4px solid black;
+  margin: 6px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.high h2 {
+  color: rgb(255, 190, 71) !important;
+}
+
+.low h2 {
+  color: rgb(58, 70, 111) !important;
+}
+.low {
+  background-image: url(./assets/low\ honor.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 4px solid black;
+  margin: 6px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#story {
+  padding-top: 80px;
+  background-color: rgb(253, 252, 234);
+  min-height: 800px;
+}
+
+#story p {
+  color: black;
+  font-weight: 800;
+}
+
+#story .left {
+  float: left;
+  max-width: 500px;
+  margin-right: 10px;
+  box-shadow: none;
+}
+
+#story .right {
+  margin-top: 30px;
+  float: right;
+  max-width: 500px;
+  margin-right: 10px;
+  box-shadow: none;
+  border: none;
+}
+
+#narrative .quote {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -640px;
+}
+
+.wide {
+  margin-top: 0;
+  margin-bottom: -50px;
+  width: 100%;
+  height: 75vh;
+  border: none;
+  object-fit: cover;
+}
+
+#narrative {
+  margin-top: 0;
+  padding-top: 60px;
+  background-image: url(./assets/peter-gargiulo-cGNCepznaV8-unsplash.jpg);
+  background-size: contain;
+  margin-bottom: 0;
+  padding-bottom: 400px;
+}
+
+#narrative .right {
+  float: right;
+  max-width: 700px;
+  border: 3px solid;
+  margin: 20px;
+}
+
+#narrative p {
+  text-shadow: black 2px 3px;
+}
+
+#narrative .left {
+  float: left;
+  max-width: 1000px;
+  border: 3px solid;
+  margin: 20px;
+}
+
+#narrative #showcase-right {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  height: 40vh;
+  margin: 30px;
+  object-position: center center;
+  object-fit: cover;
+  overflow: hidden;
+  float: right;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px,
+    rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px,
+    rgba(0, 0, 0, 0.05) 25px 25px;
+  z-index: -1;
+}
+
+#narrative video {
+  position: relative;
+
+  top: -70px;
+  zoom: 110%;
+}
+
+#conclusion {
+  border-top: 3px solid rgb(21, 21, 21);
+  margin-top: 0;
+  padding-top: 0;
+  background-image: linear-gradient(
+    rgb(0, 0, 0),
+    rgb(21, 21, 21),
+    rgb(111, 12, 15)
+  );
+  background-size: cover;
+  background-position: center;
+  min-height: 1300px;
+}
+
+#conclusion .right {
+  float: right;
+
+  max-width: 500px;
+  min-width: none;
+}
+
+#conclusion p {
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+}
+
+#conclusion h2 {
+  color: rgb(255, 255, 255);
+  font-size: 65px;
+}
+
+#conclusion img {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+}
+
+#references .splash-screen {
+  margin-top: -200px;
+  margin-bottom: -200px;
+}
+
+#references {
+  padding-top: 0;
+  text-align: center;
+  background-color: rgb(20, 4, 5);
+  text-shadow: black 2px 2px;
+}
+
+#references img {
+  border-top: 5px solid rgb(20, 4, 5);
+  border-radius: 0;
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+  box-shadow: none;
+}
+#references h3 {
+  font-size: 30px;
+}
+
+#references p {
+  text-shadow: none;
+  font-weight: 900;
+  font-family: "Poppins";
+  line-height: normal;
+  color: rgb(255, 255, 255);
+}
+
+#references a {
+  margin-left: 5px;
+  color: red;
+}
+
+@media screen and (max-width: 1700px) {
+  p {
+    font-size: 20px;
+    padding: 30px;
+  }
+
+  #introduction img {
+    max-width: 800px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  header nav {
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  header nav {
+    display: none;
+  }
+  #introduction img {
+    max-width: 350px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 1900px) and (max-width: 6000px) {
+  header h1 {
+    font-size: 140px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: -100px;
+    margin-bottom: -150px;
+  }
+  header h2 {
+    font-size: 160px;
+    padding-top: -300px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  header {
+    margin-top: -105px;
+  }
+}
+
+@media (min-width: 2800px) and (max-width: 6000px) {
+  .left {
+    min-width: 1000px;
+  }
+
+  .right {
+    min-width: 1000px;
+  }
+  p {
+    font-size: 50px;
+  }
+
+  #story {
+    min-height: 1800px;
+  }
+
+  #story img {
+    min-width: 900px;
+  }
+
+  h2 {
+    font-size: 70px;
+  }
+
+  header nav a {
+    font-size: 40px;
+  }
+
+  html {
+    zoom: 110%;
+  }
+
+  #narrative .quote {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -770px;
+    margin-top: 90px;
+  }
+}
+
+@media (min-height: 1970px) and (max-height: 4000px) {
+  section {
+    min-height: 1200px;
+  }
+
+  #story {
+    border: none;
+  }
+
+  html {
+    zoom: 110%;
+  }
+}
+@media (min-height: 1220px) and (max-height: 2000px) {
+  #narrative video {
+    top: -120px;
+    zoom: 125%;
+  }
+}
+@media (min-height: 2000px) and (max-height: 3000px) {
+  #narrative video {
+    top: -150px;
+    zoom: 120%;
+  }
+}
+
+@media (min-height: 1240px) and (max-height: 2000px) {
+  .top {
+    position: relative;
+    border: none;
+    box-shadow: none;
+    z-index: 1;
+    height: 15vh;
+    width: 100%;
+    top: 130px;
+  }
+
+  .bottom {
+    position: relative;
+    border: none;
+    box-shadow: none;
+    z-index: 1;
+    height: 15vh;
+    width: 100%;
+    bottom: 130px;
+  }
+}
+
+@media (min-height: 1500px) and (max-height: 3000px) {
+  .top {
+    display: none;
+  }
+
+  .bottom {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 814px) {
+  .top {
+    display: none;
+  }
+
+  .bottom {
+    display: none;
+  }
+}
+
+@media (min-width: 3000px) and (max-width: 6500px) {
+  #introduction,
+  #sandbox,
+  #gameplay,
+  #honor,
+  #story,
+  #narrative,
+  #conclusion p {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .wide {
+    margin-bottom: -100px;
+  }
+
+  #narrative .quote {
+    font-size: 30px;
+  }
+}

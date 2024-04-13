@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Dead Redemption II Analysis</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <audio id="audio" hidden>
+        <source src="./assets/click.mp3" type="audio/mpeg" />
+      </audio>
+      <nav>
+        <a onclick="audio.play();" href="#">Home</a>
+        <a onclick="audio.play();" href="#introduction">Introduction</a>
+        <a onclick="audio.play();" href="#sandbox">The Sandbox</a>
+        <a onclick="audio.play();" href="#gameplay">Gameplay</a>
+        <a onclick="audio.play();" href="#interactivity">Interactivity</a>
+        <a onclick="audio.play();" href="#honor">Honor</a>
+
+        <a onclick="audio.play();" href="#story">Story</a>
+
+        <a onclick="audio.play();" href="#narrative">Narrative Design</a>
+        <a onclick="audio.play();" href="#conclusion">Conclusion</a>
+        <a onclick="audio.play();" href="#references">References</a>
+      </nav>
+      <h1>The Design and Narrative of</h1>
+      <h2>Red Dead Redemption II</h2>
+      <h4>by Jordan Hauge</h4>
+    </header>
+    <section>
+      <div class="splash-screen">
+        <img class="top" src="./assets/video edge.png" alt="" />
+        <video
+          src="./assets/mp4/Red Dead Redemption 2 background.mp4"
+          id="background-video"
+          autoplay
+          loop
+          muted
+          poster="./assets/R.jpg"
+        ></video>
+        <img class="bottom" src="./assets/video edge 2.png" alt="" />
+      </div>
+    </section>
+
+    <main id="introduction">
+      <h2>Introduction</h2>
+      <p>
+        Red Dead Redemption II is an open-world western action-adventure game
+        developed by Rockstar Games, released in October of 2018. The game takes
+        place in the fictionalized Wild West of 1899. The world is changing
+        rapidly, almost too fast for the group the game follows. They are the
+        Van Der Linde Gang, a group of outlaws struggling to survive in an
+        ever-changing country and sticking firmly to their outlaw way of life.
+        As the world around them becomes more civilized and law enforcement
+        tightens its grip, the gang begins to face more turmoil than ever. The
+        protagonist, Arthur Morgan, has to decide what kind of man he’s going to
+        be as his family falls apart around him and his health quickly declines.
+      </p>
+      <img src="./assets/R.jpg" alt="" />
+
+      <p>
+        2018 was an incredible year for gaming, but something about RDR2 stood
+        out amongst the rest, despite having steep competition from game of the
+        year winner God of War and a plethora of other titles. Besides being a
+        visually stunning sequel to the critically acclaimed Red Dead Redemption
+        (2010), the game had something to it, there was a buzz around it. I
+        haven’t fully shaken it. I still make references to the game 6 years
+        later with friends and family. Having finished my 3rd playthrough just a
+        few months ago, I have firmly placed the game in my top 3 of all time.
+        It’s the balance the game achieves that does it for me. Sure, there are
+        other games with better combat, better traversal, a better original
+        score, a better this, and a better that, but where RDR2 excels for me is
+        the harmony of all its parts. Every aspect of the game delivers and
+        works together as a part of a whole. The world is filled with meticulous
+        detail and diverse environments. The characters are complex and clearly
+        defined. The story is filled with themes of loyalty, betrayal, and
+        redemption. The gameplay mechanics are balanced and robust. The
+        performances are heartfelt and lived in. It all comes together to create
+        a living, breathing, immersive world that marries its components
+        seamlessly.
+      </p>
+    </main>
+    <section id="sandbox">
+      <h2>The Sandbox</h2>
+      <h4>
+        Take a look at the RDR2 interactive map:
+        <a href="https://rdr2map.com/">here</a>
+      </h4>
+
+      <p>
+        While RDR2 offers an excellent story for players to work their way
+        through, its open world is equally impressive. After a nearly three-hour
+        story prologue, the player is finally cut loose, free to explore the
+        open world of this fictionalized version of the wild west. The
+        environments range from snow ridden mountain tops, to dense forests, to
+        wide open pastures, and sizzling deserts. The world has a full day night
+        cycle and dynamic weather events. The animals graze and hunt for food.
+        Towns are bustling with civilians going about their days, each person
+        can be interacted with in a positive or negative way. Buildings and
+        houses are being built and strangers in need are in every corner of the
+        map. This world gives the player the sense that if you just left it
+        alone, it would live on uninterrupted. It feels alive and it’s
+        incredibly immersive.
+      </p>
+      <div id="showcase">
+        <video
+          src="./assets/mp4/The Beauty of RDR2.mp4"
+          id="background-video"
+          autoplay
+          loop
+          muted
+          poster="./assets/R.jpg"
+          type="video/ogg"
+        ></video>
+      </div>
+      <!-- <img src="./assets/red-dead-redemption-open-world-1536x864.jpg" alt="" /> -->
+      <p>
+        The open-world design and player agency foster emergent gameplay
+        experiences. Players can stray from the main story and stumble upon
+        unexpected events, like a shootout between rival gangs or a lone
+        traveler needing help. These unscripted moments contribute to the
+        feeling of a living world and provide unique experiences for each
+        player. Domsch talks about Timed Events and the Intradiegetic Clock.
+        RDR2 takes full advantage of the in-game time, having many events only
+        available at certain times of day. Missions with the mayor of Saint
+        Denis are only available at night while other stranger missions are only
+        available during the day. Many of the main quests can be done at any
+        time of day and will reflect as such during the mission and cutscenes.
+      </p>
+      <p>
+        A core tenet of Piccuci's sandbox philosophy is that player agency
+        fosters emergent storytelling. The idea of motivating players to explore
+        the world and uncover new secrets or characters is the backbone of the
+        game's world design. This lets the player create their own stories out
+        in the world and lets them tackle objectives in a nonlinear fashion. The
+        freedom allowed in the sandbox is vast. Most non-player characters are
+        able to be interacted with by either greeting or antagonizing. Nearly
+        all non-player characters can be killed, including some of the strangers
+        who give missions like William the herb enthusiast. Strangers in need
+        can be found during travel, whether it be a man caught in a bear trap, a
+        woman whose horse collapsed, or a stagecoach being robbed by a rival
+        gang. Giving players this much freedom allows them to choose what kind
+        of outlaw they want to be, whether they want to be friendly or want to
+        feed civilians to gators, it's up to them. Sandbox games like RDR2, "are
+        designed to maximize the paidia type of play and provide an interacive
+        environment where players can exercise creativity and craft individual
+        stories which maintain a sense of cohesiveness within the greater
+        narrative framework" (Piccuci 110).
+      </p>
+      <img class="right" src="./assets/open world.jpg" alt="" />
+      <p>
+        Rival gangs are everywhere. The O'Driscolls, Murfrees, Laramies,
+        Skinners, Lemoyne Raiders, etc, can be found setting up camp and
+        ambushing civilians throughout the open world. They even search and
+        ambush the main camp if the player isn't careful. The non-scripted
+        nature of these moments can lead to genuine surprises and unique
+        experiences for each player. That being said, these events are not
+        without logic. Each gang has their territory, for example you wont run
+        into the Skinners unless you are out West near BlackWater and are
+        unlikely to run into Lemoyne Raiders unless out East just outside Saint
+        Denis. Knowing the territory means knowing more of what to expect the
+        world to throw at you.
+      </p>
+
+      <p>
+        The pacing and delivery of the narratives in the sandbox are up to the
+        player, "unlike the Pre-established structure, here we are presented
+        with a higher degree of nonlinearity combined with the frequent presence
+        of side-stories and/or multiple story branches. While an overarching pre
+        established storyline is still present, more space is given to the
+        exploration of the environments and optional retrieval of additional
+        story information" (Piccuci 107).
+      </p>
+    </section>
+
+    <section id="gameplay">
+      <h2>Gameplay</h2>
+      <div id="showcase-right">
+        <video
+          src="./assets/mp4/QuickDraws and Brutal Combat Episode 1 (No Deadeye) - Modded Red Dead Redemption 2.mp4"
+          id="background-video"
+          autoplay
+          loop
+          muted
+          poster="./assets/R.jpg"
+        ></video>
+      </div>
+      <p>
+        Players can traverse the vast open world on horseback or by foot. The
+        game utilizes a third-person perspective, allowing you to take in the
+        scenery and interact with the environment. Players can engage in
+        gunfights using a variety of period-appropriate weapons like pistols,
+        rifles, and shotguns. A targeting system assists with aiming, but manual
+        aiming rewards skill. Dead Eye, a bullet-time mechanic, allows for rapid
+        takedowns of multiple enemies. Hand-to-hand combat adds another layer,
+        requiring strategy and quick reflexes. The player's horse isn't just a
+        mode of transportation, it's also a loyal companion. Bonding with the
+        horse through brushing, feeding, and calming increases its
+        manueverability, speed, and loyalty. Challenges can be made or
+        discovered by the player. The game encourages this through rewards and
+        achievements. An example is an achievement for having a bounty of $250
+        in every state at the same time. Other challenges like horse challenges
+        or gunslinger challenges can lead to rewards that include clothing items
+        and pouches. Much of the fun is in setting challenges for yourself, like
+        hunting for 3 star pelts or seeing how long you can last in a shootout
+        with the law in Saint Denis.
+      </p>
+      <p>
+        Feedback is given in a number of ways, through hit markers, stamina,
+        health, and dead eye cores, as well as the HUD. Hit markers will change
+        color based on whether the shot was a critical hit or not and the
+        players honor status will be represented through many of their actions.
+        The game has a bit of a learning curve for the mechanics; It is not
+        uncommon to accidentally shoot a stranger when you were trying to greet
+        them. Though with time and practice, mastery of the mechanics can lead
+        to incredibly satisfying combat and traversal.
+      </p>
+      <img class="left" src="./assets/undead nightmare.jpg" alt="" />
+      <p>
+        Mods give way to a plethora of new game modes, features, and emergent
+        gameplay. Trainers, weapons, and cosmetic items previously exclusive to
+        Red Dead Online have made their way to the single player experience
+        through modding. Custom mods allow players to dress up as Clint
+        Eastwood, John Wick, or even Red Harlow from Red Dead Revolver. With
+        mods, the gameplay mechanics can be modified to your heart's content.
+        One of my favorites in Undead Nightmare II, a mod that takes inspiration
+        from the first game's bonus zombie mode. While the mod doesn't have a
+        story, it is a lot of fun to see the world transformed into an
+        apocalyptic wasteland and get a glimpse at what could have been if
+        Rockstar decided to make a sequel to the highly popular original mode
+        from 2010.
+      </p>
+      <img class="right" src="./assets/modded wacky west.jpg" alt="" />
+      <p class="link">
+        Check out this hilarious example of what mods can do in RDR2:
+        <a href="https://www.youtube.com/watch?v=3Aj2Pt5vWT8">Link</a>
+      </p>
+    </section>
+    <section id="interactivity">
+      <h2>Interactivity</h2>
+      <div id="showcase">
+        <video
+          src="./assets/mp4/Timeline 1.mov"
+          id="background-video"
+          autoplay
+          loop
+          muted
+          poster="./assets/R.jpg"
+          type="video/ogg"
+        ></video>
+      </div>
+      <p>
+        Unlike generic background characters, the NPCs in RDR2 offer a variety
+        of interactive possibilities. Players can greet them with a simple
+        "Howdy" or engage in deeper conversations that reveal hidden stories or
+        lead to side quests. These interactions aren't limited to dialogue.
+        Players can offer help to those in need, gamble in saloons, or even rob
+        unsuspecting townsfolk (though the consequences will vary depending on
+        Arthur's honor rating). This range of interaction makes the world feel
+        like it's populated by real people, not pre-programmed NPCs.
+      </p>
+      <p>
+        The game's interactivity extends to the environment itself and the space
+        of possibility is enormous. Players can not only admire the scenery, but
+        they can interact with it in meaningful ways. Hunting animals for food
+        and crafting materials, fishing for relaxation, or simply picking herbs
+        for medicine all add to the feeling of inhabiting a living world. These
+        interactions are further enhanced by diegetic systems. Brushing and
+        feeding your horse isn't just a menu option; it's a process that
+        strengthens the bond between player and mount. These details may seem
+        small, but they contribute to a more immersive and interactive
+        experience.
+      </p>
+      <p>
+        The interaction between player and nature seems to have been a big focus
+        in Rockstar's development process. The wildlife responds realistically
+        to the player's actions and seems to have a functioning ecosystem. While
+        exploration, hunting, and combat are core aspects of the game,
+        interactivity extends beyond them. Players can engage in a variety of
+        mini-games, from poker and blackjack in saloons to five finger filet and
+        challenges with other characters. These activities offer a welcome break
+        from the main story and further enrich the world-building and
+        characters.
+      </p>
+      <img class="right" src="./assets/John and Arthur.png" alt="" />
+      <p>
+        Much of the big decisions in the story are examples of Salen and
+        Zimmerman's third mode of interactivity, Explicit interactivity. These
+        are moments in the story where the cutscene takes a pause to let the
+        player reflect on their current decision and react accordingly. This
+        interaction is normally through the press of button 1 or button 2, but
+        these choices stack up throughout the game and determine what kind of
+        man Arthur is. Agency in the game's main story is often a bit limited,
+        being a choice between good or bad, (low or high honor). The outcomes to
+        these choices are obvious, so a player who wants to lean into the idea
+        of Arthur being redeemed will likely always select the choice that gives
+        positive honor, making the selection of narrative choices a bit slim.
+        But the fact that the game has any agency at all considering the scale
+        and depth of the world is incredible in itself.
+      </p>
+
+      <section class="center"></section>
+    </section>
+    <section id="honor">
+      <h2>Honor</h2>
+      <div class="container">
+        <div class="column high">
+          <h2>high</h2>
+          <p>
+            A high honor Arthur is seen favorably by the citizens of the Wild
+            West. This translates to significant discounts in shops throughout
+            the game world. Whether you're looking for new weapons, provisions,
+            or stylish clothing, a high honor rating ensures you get a better
+            deal. Additionally, certain shops and missions might even be
+            inaccessible to low honor outlaws. Maintaining a good reputation
+            opens doors literally and metaphorically in the world. High honor
+            isn't just about discounts and quests, it can also make the core
+            gameplay loop more enjoyable. Helping people and completing
+            honorable missions often yield positive emotional rewards.
+            Witnessing the gratitude of those you've helped can be a satisfying
+            experience, adding a layer of purpose to your actions while also
+            progressing Arthur's character arc.
+          </p>
+        </div>
+        <div class="column low">
+          <h2>low</h2>
+          <p>
+            The world rewards the ruthless. Low honor opens doors to lucrative
+            opportunities like robbing banks, trains, and unsuspecting
+            travelers. These risky endeavors can yield significant financial
+            gains, allowing you to acquire better weapons, gear, and horses. Low
+            honor also generally increases the amount of loot you find on dead
+            bodies, further fueling the outlaw playstyle. The freedom of action
+            no matter the consequences is something players often enjoy in
+            gaming. Games like Grand Theft Auto or Postal give players an open
+            playground to go nuts in. This playstyle can be a refreshing change
+            of pace for players looking for a more action-oriented experience.
+          </p>
+        </div>
+      </div>
+      <p class="card">
+        The honor system is the game's main way of expressing agency throughout
+        the story and the sandbox. The game will react to your choices and
+        adjust character interactions and story beats accordingly. While there
+        are a number of choices to be made throughout the narrative, Red Dead
+        Redemption 2's agency does have limitations. The core narrative arc
+        exists, and many mission outcomes are predetermined. However, the
+        order/way you approach these missions, the choices you make along the
+        way, and the world you interact with, all contribute to a unique and
+        memorable experience for each player.
+      </p>
+    </section>
+
+    <section id="story">
+      <h2>Story</h2>
+      <img
+        class="left"
+        src="./assets/Poster-Arthur-Wallpaper-4K-172849.jpg"
+        alt=""
+      />
+      <p>
+        The Story follows the Van Der Linde gang led by outlaw Dutch Van Der
+        Linde. He is a charismatic leader with dreams of living free from rules
+        and order with his surrogate gang family. The gang operates under
+        Dutch's idealistic vision of "one last score" that will allow them to
+        escape the law and live freely. However, as the story progresses, it
+        becomes clear that this dream is fading. As the gang faces mounting
+        pressure and setbacks, tensions rise. Dutch's leadership becomes
+        increasingly erratic and paranoid, straining his relationships with
+        Arthur and other members. These internal conflicts threaten to tear the
+        gang apart. Arthur struggles with his loyalty to his family and doing
+        what's right. Arthur faces his mortality as he struggles with a new
+        health diagnosis that puts his life on a countdown. He reflects on his
+        past choices and his desire for redemption emerges.
+      </p>
+      <img
+        class="right"
+        src="./assets/1280px-Heroesjourney.svg.png"
+        alt="hero's journey"
+      />
+      <p>
+        Looking at the story through Schell's lens of the Hero's Journey, Arthur
+        goes through many of the steps and can be seen as going from a selfish
+        outlaw to a man who just wants to do some good with the time he has
+        left. The story follows the classic archetypes, the call to adventure,
+        the challenges and temptations, the revelation, transformation,
+        atonement, and resolution. The journey begins with the gang in the thick
+        of it, and they really never get out of it. A shootout in BlackWater has
+        forced the gang into constant moving and hiding. Along his journey
+        Arthur meets a number of people who inspire him, including a Native
+        American named Rain Falls and a nun named Calderon. As the rift between
+        himself and Dutch grows he begins to see things more clearly and his
+        transformation begins. He reconciles with his past mistakes and begins
+        to make things right in his own way. In the end, his redemption comes
+        from trying to make other's lives better rather than his own. Arthur
+        discovers the good in himself even if he denies its presence. His
+        character arc is one of intrinsic growth motivated by a sudden death
+        sentence that gives him clarity. Some may argue he isn't a hero, but the
+        game definitely wants you to consider that he can be, especially with
+        some of the choices the player can make towards the end. Do you help
+        John get back to his family and escape the attack, or do you go back to
+        the cave for the stockpile of money? The degree of his heroic nature and
+        his redemption is up to the player.
+      </p>
+    </section>
+    <img
+      class="wide"
+      src="./assets/braithwaite manor.png"
+      alt="braithwaite manor"
+    />
+    <section id="narrative">
+      <h4 class="quote">“If you ain’t gonna be civilized about this...”</h4>
+      <h2>Narrative Design</h2>
+      <p>
+        RDR2 strikes a balance between Piccuci's idea of pre-established
+        narrative structure and discovery narrative. The player can weave their
+        story between these two narrative delivery methods. Each mission in the
+        game more or less has a definitive ending, though the order you tackle
+        them is almost entirely up to you. In each act the map is populated with
+        multiple quest markers, usually starting with the quest giver's first
+        initial. Whether the player wants to do a Dutch mission first or a Sadie
+        mission first or any other available mission is entirely up to them.
+        When in a mission, the structure is largely linear. Rockstar likely
+        focused on a pre-established narrative because they had a specific story
+        they wanted the players to experience, rather than creating branching
+        paths. Because of this, missions often don't affect other available
+        missions, but completing them does normally populate the map with new
+        ones.
+      </p>
+      <img
+        class="right"
+        src="./assets/how-craft-build-camp-campfire-red-dead-redemption-2.jpg"
+        alt=""
+      />
+
+      <p>
+        In many ways the pacing of the game could be considered a slow burn, but
+        this only allows the player to become more invested in the story and the
+        characters. Spending more time at camp and interacting with the story's
+        main characters gives a deeper appreciation to what each character's
+        beliefs/values are and what obstacles are in their way. Seeing the group
+        as a family makes the story all the more tragic as well as bittersweet.
+        It's really a narrative about a family breaking apart in the most
+        dramatic of ways.
+      </p>
+      <p>
+        The importance of character cannot be overstated here. Miller says, "One
+        of the truly unique aspects of digital characters, as opposed to
+        characters created for movies or traditional TV, is that you don’t just
+        watch them; you can actually be them. Or, at the very least, you can
+        interact with them" (Miller 90). There's something about being in a
+        character's shoes that makes you appreciate the situation all the more.
+        In a game like The Last of Us, being Joel is far more stressful than
+        just watching Joel. Shifting perspectives changes everything. When you
+        play as Ellie near the end of The Last of Us I, it's scarier than
+        playing as Joel, the sense of vulnerability is increased. The same goes
+        for playing Arthur's story rather than just watching it. When you
+        experience the diagnosis after playing as him for so long, it feels like
+        heartbreaking news and suddenly you realize the game is coming to an
+        end, and if you're thoroughly enjoying it like I did, that's bad news.
+        Perspective makes all the difference in storytelling.
+      </p>
+      <img
+        class="left"
+        src="./assets/rdr2-endings-guide-standard-scale-2_00x-gigapixel.png"
+        alt=""
+      />
+      <p>
+        Miller asks, "Is it essential to include an oppositional character or
+        series of them in every work of digital entertainment?" (Miller 96). The
+        simple answer is no, antagonists are not essential, but they are
+        compelling. Part of what makes being Arthur so stressful is the amount
+        of Antagonists he has to deal with. Not only are there a number of rival
+        gangs out to get the Van Der Lindes, but he eventually has to worry
+        about his closest friends and family. Dutch slowly becomes the
+        antagonist over the course of the narrative and since he is a
+        father-figure and a brother to Arthur, it makes it all the more painful.
+        Dutch is a complex antagonist because he never really had ill intentions
+        towards his family, he just couldn't achieve his dream and the constant
+        setbacks as well as head trauma lead to his increasing paranoia and loss
+        of control. He brought in all these people that the world rejected and
+        created a family. He is the first one to step up when an outsider needs
+        help, but his ability to rein himself in dies with Hosea and Molly. He
+        is also poisoned by Micah, one of the newest members of the gang who has
+        a lack of self control and a faulty moral compass. Micah can be seen as
+        the true antagonist of the game because of his shady nature and deep
+        betrayal. In many ways he is the one who tears the group apart and the
+        game sets him up to be the final conflict of the epilogue.
+      </p>
+      <div id="showcase-right">
+        <video
+          src="./assets/mp4/Arthur.mp4"
+          id="background-video"
+          autoplay
+          loop
+          muted
+          poster="./assets/R.jpg"
+          type="video/ogg"
+        ></video>
+      </div>
+      <p>
+        Taking on all these challenges and storylines can take the player well
+        over 60+ hours; with all the side quests and sandbox activities,
+        achieving 100% completion can take well over 120+ hours. The design of
+        the narrative is extremely well thought out and carefully crafted. The
+        ability the player has to weave in and out of the narrative and control
+        the pace of the story makes it one of the greatest open-world action
+        adventure narratives to date.
+      </p>
+    </section>
+    <section id="conclusion">
+      <img src="./assets/alfven-ato-rdr2.jpg" alt="" />
+      <h2>Conclusion</h2>
+      <img
+        class="right"
+        src="./assets/maxresdefault-lowres-scale-2_00x-gigapixel.png"
+        alt=""
+      />
+      <p>
+        There are plennty of games with much deeper agency and player choice,
+        but where RDR2 lacks in meaningful decision making, it makes up for in
+        compelling narrative and a rich open-world. The mechanics are robust and
+        the performances are award worthy. Roger Clark, Benjamin Byron Davis,
+        Rob Wiethoff, Alex McKenna, Peter Blomquist, and the rest of the
+        incredible cast put over 5 years into performance capture/voice work and
+        deepened my appreciation for video game performances in a big way. While
+        the game has drawbacks as many do, this game is a masterpiece in my
+        mind. It finds a way to balance the heart of the story, with a GTA style
+        sandbox all while making it feel cohesive.
+      </p>
+
+      <p>
+        If you asked me to show someone who never plays video games an example
+        of why the medium is so beloved, this is the one I would show them. The
+        visuals alone are breathtaking, but the deeper you look, the more this
+        game has to offer. In many ways it almost feels like an adaptation of a
+        book and I mean that in the best way possible. I play a lot of games,
+        but outside of pure nostalgia, this game has stuck with me in a way many
+        haven't. As I said, it isn't the best at any one thing necessarily, but
+        the balance it strikes is awe inspiring and I can only imagine the depth
+        of the development process.
+      </p>
+      <p>
+        Arthur will stick with me as one of my favorite Protagonists of any
+        medium, along with Kratos, Walter White, and Jimmy McGill. There's
+        something about flawed characters that resonates with audiences (& me)
+        in a deep way. These are characters who make mistakes and often end up
+        paying for them in big ways. But these are also characters who seek
+        Redemption as well. The idea behind characters like these is that a
+        person can change and is the sum of the actions they make going forward,
+        not just the ones they made in their past. These stories belong in any
+        medium, but I think gaming offers a different perspective and that's
+        what excites me about the future of it more than any other medium. Games
+        are advancing at an incredible rate and the nature/potential of telling
+        great stories is only getting better. Red Dead Redemption II will stand
+        out as one of the greatest examples of what the medium can offer and
+        will be remembered and played for decades to come.
+      </p>
+    </section>
+    <section id="references">
+      <img src="./assets/red reference 4mf21.jpg" alt="" />
+      <h2>References</h2>
+      <!-- <section>
+        <div class="splash-screen">
+          <video
+            src="./assets/mp4/Red Dead Redemption 2 references backdrop.mp4"
+            id="background-video"
+            autoplay
+            loop
+            muted
+            poster="./assets/R.jpg"
+          ></video>
+        </div>
+      </section> -->
+      <h3>Readings:</h3>
+      <p>Schell - 'The Art of Game Design: A Book of Lenses (2008)</p>
+      <p>
+        Piccuci - "When Video Games Tell Stories: A Model of Video Game
+        Narrative Architectures"(2014)
+      </p>
+      <p>
+        Domsch - Storyplaying: Agency and Narrative in Video Games - Ch. 2
+        "Video Games and Narrative" (2013)
+      </p>
+      <p>Salen & Zimmerman - 'Rules of Play' (2004)</p>
+      <p>
+        Miller - Digital Storytelling: A Creator's Guide to Interactive
+        Entertainment (2004)
+      </p>
+      <h3>Videos:</h3>
+      <p>
+        [4K] The Beauty of Red Dead Redemption 2 - Vol. 1 (Graphics Showcase)
+        <a href="https://www.youtube.com/watch?v=3nNnx6u_qM0">Link</a>
+      </p>
+      <p>
+        QuickDraws and Brutal Combat Episode 1 (No Deadeye) - Modded Red Dead
+        Redemption 2
+        <a href="https://www.youtube.com/watch?v=qrcFmAzjhTw">Link</a>
+      </p>
+
+      <p>
+        Red Dead Redemption 2 | 4K Gaming Wallpaper | Live Background #3
+        <a href="https://www.youtube.com/watch?v=hkW4vjxCLAs">Link</a>
+      </p>
+
+      <p>
+        100 Funniest Antagonistic Lines (Red Dead Redemption 2)
+        <a href="https://www.youtube.com/watch?v=djLYR7zjDho">Link</a>
+      </p>
+
+      <p>
+        Red Dead Redemption 2: The MODDED Wacky West<a
+          href="https://www.youtube.com/watch?v=3Aj2Pt5vWT8"
+          >Link</a
+        >
+      </p>
+
+      <p>
+        Arthur. by Charles Liu
+        <a href="https://www.youtube.com/watch?v=_NN1DOta7P0">Link</a>
+      </p>
+      <h3>Additional stuff to check out:</h3>
+      <p>
+        Red Dead Redemption 2 is a Celebration of Life (Video)
+        <a href="https://www.youtube.com/watch?v=cQrVSxeOCOY">Link</a>
+      </p>
+      <p>
+        Undead Nightmare II - Origins (Mod)
+        <a href="https://www.nexusmods.com/reddeadredemption2/mods/1095"
+          >link</a
+        >
+      </p>
+    </section>
+    <script type="text/javascript">
+      const audio = new Audio();
+      audio.src = "./assets/click.mp3";
+    </script>
+  </body>
+</html>
